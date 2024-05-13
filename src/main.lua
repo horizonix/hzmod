@@ -1,3 +1,3 @@
 --/// HZMOD - Roblox Studio Plugin
 --// Made by Horizonix Studios
---/ Plugin Version: 1.0.0.0/
+--/ Plugin Version: 1000/
