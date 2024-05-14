@@ -7,9 +7,3 @@ local hzuiData = {
   core = true;
 };
 hzuiModule:ssd(hzuiData);
-
-print('Running!');
-local userInputService = serviceModule:get('UserInputService');
-userInputService.InputBegan:Connect(function(input, gameProcessedEvent()
-      print(input)
-end);
