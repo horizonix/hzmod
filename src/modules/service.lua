@@ -1,5 +1,5 @@
 --// Service was made by JeffMonster7 on Roblox for Horizonix Studios
---/ Service V4.9.3 - Updated as of 14/05/2024 (UK)
+--/ Service V4.9.4 - Updated as of 14/05/2024 (UK)
 local service = {};
 local services = {
 	AnalyticsService = game:GetService('AnalyticsService');
@@ -38,7 +38,7 @@ local services = {
 	StarterPack = game:GetService('StarterPack');
 	StarterPlayer = game:GetService('StarterPlayer');
 	StudioService = game:GetService('Studio');
-	TeamService = game:GetService('TeamService');
+	TeamService = game:GetService('Teams');
 	TeleportService = game:GetService('TeleportService');
 	TestService = game:GetService('TestService');
 	TextService = game:GetService('TextService');
