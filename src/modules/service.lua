@@ -1,5 +1,5 @@
 --// Service was made by JeffMonster7 on Roblox for Horizonix Studios
---/ Service V4.9.1 - Updated as of 14/05/2024 (UK)
+--/ Service V4.9.2 - Updated as of 14/05/2024 (UK)
 local service = {};
 local services = {
 	AnalyticsService = game:GetService("AnalyticsService");
@@ -83,7 +83,7 @@ local services = {
 };
 function service:get(request)
 	if services[request] then
-		return service[request];
+		return services[request];
 	else
 		return 'pc:8';
 	end;
